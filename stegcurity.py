@@ -99,7 +99,9 @@ def stegnography():
     elif userinput == 3:
         print(colored('\nSee you again...Bye...\n\n','blue'),end = '')
     else:
-        print(colored('\nWARNING!!! Please enter correct value.\n','yellow'))
+        print(colored('\n ---------------------------------------- ','yellow'))
+        print(colored('| WARNING!!! Please enter correct value. |','yellow'))
+        print(colored(' ---------------------------------------- \n','yellow'))
         
         
 
