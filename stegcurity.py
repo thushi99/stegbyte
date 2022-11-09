@@ -3,9 +3,16 @@
 import cv2
 import numpy as np
 import pyfiglet
+from termcolor import colored
   
-banner = pyfiglet.figlet_format("STEGNOGRAPHY")
-print(banner,"\t\tFor the ISP assignment, This has  done by Kaviseshan and Thushitharan")
+banner = pyfiglet.figlet_format("STEGCURITY")
+#print(banner)
+print(colored(banner, 'white'))
+print(colored('- Sri Lanka Institute of Information Technology (SLIIT)\n- Information Security Project - IE3092\n- Done by:', 'blue'))
+print(colored('\tM.Thushitharan - IT19983370\n\tS.Kaviseshan - IT20070144', 'green'))
+print("")
+#print("--------------------------------------------------------")
+print(colored('--------------------------------------------------------', 'grey'))
 
 
 def data2binary(data):
@@ -85,11 +92,17 @@ def decode_text():
     return text
 
 def stegnography():
-    userinput = int(input("\nSTEGBYTE\n\n 1. Encode \n 2. Decode \n\n Enter Here : "))
+    userinput = int(input("\nSelect an Option\n\n 1. Encode \n 2. Decode \n 3. Quit Program \n\n Enter Option : "))
     if userinput == 1:
         encode_text()
-    else:
+    elif userinput == 2:
         final_data=decode_text()
         print("\nDecoded Data : ",final_data)
+    elif userinput == 3:
+        print("\nSee you again...Bye...", end = ' ')
+    else:
+        print("\nWARNING!!! Please enter correct value.")
+        
+        
 
 stegnography()
