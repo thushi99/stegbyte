@@ -8,11 +8,9 @@ from termcolor import colored
 banner = pyfiglet.figlet_format("STEGCURITY")
 #print(banner)
 print(colored(banner, 'white'))
-print(colored('- Sri Lanka Institute of Information Technology (SLIIT)\n- Information Security Project - IE3092\n- Done by:', 'blue'))
+print(colored('- Sri Lanka Institute of Information Technology (SLIIT)\n- Information Security Project - IE3092\n- Done by:', 'red'))
 print(colored('\tM.Thushitharan - IT19983370\n\tS.Kaviseshan - IT20070144', 'green'))
-print("")
-#print("--------------------------------------------------------")
-print(colored('--------------------------------------------------------', 'grey'))
+print("--------------------------------------------------------")
 
 
 def data2binary(data):
@@ -99,7 +97,7 @@ def stegnography():
         final_data=decode_text()
         print("\nDecoded Data : ",final_data)
     elif userinput == 3:
-        print("\nSee you again...Bye...", end = ' ')
+        print(colored('\nSee you again...Bye...\n\n','blue'),end = '')
     else:
         print(colored('\nWARNING!!! Please enter correct value.\n','yellow'))
         
