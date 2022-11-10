@@ -106,7 +106,7 @@ python3 stegcurity.py
 * Special Thanks to our Lecturer [Dr. Lakmal Rupasinghe](https://www.sliit.lk/faculty-of-computing/staff/lakmal.r/) and [Eshandi Aththanayaka](https://www.sliit.lk/faculty-of-computing/staff/eshandi.a/) for their great support that helped in creating and improving the tool.
 
 ## Restrictions
-* Currently this version support for hiding messages only within `.png` format Images**
+* Currently this version support for hiding messages only within `.png` format Images
 
 ## Version
 **Current Version is 1.0**
