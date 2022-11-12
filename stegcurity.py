@@ -7,8 +7,7 @@ from termcolor import colored
   
 motdBanner = pyfiglet.figlet_format("STEGCURITY")
 print(motdBanner)
-print(colored('- Sri Lanka Institute of Information Technology (SLIIT)\n- Information Security Project - IE3092\n- Done by:', 'red'))
-print(colored('\tM.Thushitharan - IT19983370\n\tS.Kaviseshan - IT20070144', 'green'))
+print(colored('\tCreated by Thushi', 'green'))
 print("--------------------------------------------------------")
 
 
