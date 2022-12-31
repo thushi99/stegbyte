@@ -1,7 +1,8 @@
 # Stegcurity
 
 **Version:** 1.0
-**Authors:** Andrew Quach and Stanislav Lyakhov
+
+**Authors:** Thushi
 
 ## Introduction 
 
