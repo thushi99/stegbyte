@@ -10,7 +10,7 @@ Stegcurity is a python based stegnography tool designed to hide messages in to t
 ## Installation
 
 ```
-git clone https://github.com/thushi99/stegcurity
+git clone https://gitlab.com/thushi99/isp-stegnography-tool.git
 ```
 
 ## Recommended Python Version:
@@ -22,7 +22,7 @@ Stegcurity currently supports **Python 2** and **Python 3**.
 
 ## Dependencies:
 
-Sublist3r depends on the `cv2`, `numpy`, `pyfiglet` and `termcolors` python modules.
+Sublist3r depends on the `cv2`, `numpy`, `pyfiglet`, `termcolors`, `os`, `base64` and `platform` python modules.
 
 These dependencies can be installed using the requirements file:
 
@@ -99,6 +99,11 @@ or
 ```
 python3 stegcurity.py
 ```
+
+
+## Thanks
+
+* Special Thanks to our Lecturer [Dr. Lakmal Rupasinghe](https://www.sliit.lk/faculty-of-computing/staff/lakmal.r/) and [Eshandi Aththanayaka](https://www.sliit.lk/faculty-of-computing/staff/eshandi.a/) for their great support that helped in creating and improving the tool.
 
 ## Restrictions
 * Currently this version support for hiding messages only within `.png` format Images
