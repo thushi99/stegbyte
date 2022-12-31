@@ -1,6 +1,11 @@
-## About Stegcurity 
+# Stegcurity
 
-Stegcurity is a python based stegnography tool designed to hide messages in to the images. It helps people who wish to share a secret within an image.
+**Version:** 1.0
+**Authors:** Andrew Quach and Stanislav Lyakhov
+
+## Introduction 
+
+Stegcurity is a Least Significant Bit Steganography tool created to hide messages in to the images. Stegcurity has two main functions and a sub function. Stenographic LSB encoding and decoding. Encoding embeds a secret image in the last significant bits of a cover image. Decoding extracts a secret image from an steganographic image using LSB. The other sub function is List the PNG images. 
 
 ## Screenshots
 
@@ -102,6 +107,3 @@ python3 stegcurity.py
 
 ## Restrictions
 * Currently this version support for hiding messages only within `.png` format Images
-
-## Version
-**Current Version is 1.0**
